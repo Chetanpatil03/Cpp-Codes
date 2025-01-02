@@ -83,10 +83,10 @@ void Stack::change()
     cout<<"Enter position : ";
     cin>>pos;
     cout<<"\nElemetnt"<<stk[pos];
-    cout<<"Enter element : ";
+    cout<<"\nEnter element : ";
     cin>>ele;
     stk[pos] = ele;
-    cout<<"Element:"<<stk[pos];
+    cout<<"\nElement:"<<stk[pos];
 }
 
 int main()
