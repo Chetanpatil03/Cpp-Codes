@@ -8,6 +8,8 @@ class Stack
         void push();
         void pop();
         void dis();
+        void peep();
+        void change();
     Stack(){
         top = -1;
     }
@@ -59,6 +61,34 @@ void Stack::dis()
     }
 }
 
+void Stack::peep()
+{
+    int pos;
+    if(top<=-1)
+    {
+        cout<<"Stack is empty";
+    }
+    cout<<"Enter position : ";
+    cin>>pos;
+    cout<<stk[pos];
+}
+
+void Stack::change()
+{
+    int pos,ele;
+    if(top<=-1)
+    {
+        cout<<"Stack is empty";
+    }
+    cout<<"Enter position : ";
+    cin>>pos;
+    cout<<"\nElemetnt"<<stk[pos];
+    cout<<"Enter element : ";
+    cin>>ele;
+    stk[pos] = ele;
+    cout<<"Element:"<<stk[pos];
+}
+
 int main()
 {
     cout<<"Enter size :";
@@ -66,7 +96,7 @@ int main()
 
     int ch;
     Stack s;
-    cout<<"1.Push 2.Pop 3.Display 4.Delete";
+    cout<<"1.Push 2.Pop 3.Display 4.Peep 5.Change 6.Exit";
     while (1)
     {
         cout<<"\nEnter choice : ";
@@ -76,7 +106,9 @@ int main()
         case 1: s.push();break;
         case 2: s.pop();break;
         case 3: s.dis();break;
-        case 4: exit(0);
+        case 4: s.peep();break;
+        case 5: s.change();break;
+        case 6: exit(0);
         default:
             break;
         }
