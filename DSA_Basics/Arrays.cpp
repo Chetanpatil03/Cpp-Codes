@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-
-void get(int a[],int n)
+int n;
+void get(int a[])
 {
     cout<<"Enter array Elements : "<<endl;
     for (int i = 0; i < n; i++)
@@ -10,7 +10,7 @@ void get(int a[],int n)
         cin>>a[i];
     }
 }
-void dis(int a[],int n)
+void dis(int a[])
 {
     cout<<"\nArray Elements : "<<endl;
     for (int i = 0; i < n; i++)
@@ -20,11 +20,33 @@ void dis(int a[],int n)
     }
 }
 
+void insert(int a[]){
+    int pos,ele,j;
+    cout<<"Enter position : ";
+    cin>>pos;
+    cout<<"Enter element : ";
+    cin>>ele;
+    j=n;
+    while (j<=pos)
+    {
+        a[j+1] = a[j];
+        j--;
+    }
+
+    a[pos] = ele;
+    n++;
+    
+
+    
+}
+
 int main()
 {
     int a[10],n;
     cout<<"Enter size of array : ";
     cin>>n;
-    get(a,n);
-    dis(a,n);
+    get(a);
+    dis(a);
+    insert(a);
+    dis(a);
 }
