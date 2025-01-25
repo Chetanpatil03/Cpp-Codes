@@ -4,6 +4,14 @@
 --C++ also support Functional programming as well as Object orientd programming.
 
 
-Class : (SBI)
+Class : 
     -- Blueprint for objects.
     -- 
+
+
+
+Ex.:
+    --(SBI)
+    -- Account openinng form.
+        -- One is original 
+        -- We make copies from original form.
