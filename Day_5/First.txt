@@ -6,8 +6,11 @@
 
 Class : 
     -- Blueprint for objects.
-    -- 
+    -- from class instance are created.
 
+Object:
+    -- Instance of class
+    -- 
 
 
 Ex.:
