@@ -1,1 +1,9 @@
 ----- Object orientd programming
+--Object orientd programming is terminology in which everything is an Object.
+--it is style of programming.
+--C++ also support Functional programming as well as Object orientd programming.
+
+
+Class : (SBI)
+    -- Blueprint for objects.
+    -- 
