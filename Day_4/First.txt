@@ -17,4 +17,25 @@ Same as if else statements but used to check multiple Condition. In case there a
 
 --- nested if-else
 If else Conditions under if Conditions. In simple words IF inside IF.
-Switch case
+
+--- Switch case
+Switch case use to test multiple Condition at one place. It takes one variable as expression.
+ex.
+    int a=10;
+
+    Switch(a){
+        case 1: cout<<"One";break;
+        case 2: cout<<"Two";break;
+        case 3: cout<<"Three";break;
+        case .
+             .       
+             .       
+             .       
+             .       
+             .       
+             .       
+             .       
+        case N: cout<<"N";break;
+        default: cout<<"default";
+    }
+
