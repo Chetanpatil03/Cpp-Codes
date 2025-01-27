@@ -15,5 +15,6 @@ then else block will execute.
 --- if-else-if
 Same as if else statements but used to check multiple Condition. In case there are multiple Conditions we have to check the we will use this statements.
 
-nested if-else
+--- nested if-else
+If else Conditions under if Conditions. In simple words IF inside IF.
 Switch case
