@@ -1,0 +1,19 @@
+--- Conditional statements 
+if
+if-else
+if-else-if
+nested if-else
+Switch case
+
+--- if
+In which there is only one Condition if the Condition is true the if block will execute.
+
+--- if-else
+In which there is only one Condition if the Condition is true the if block will execute.If the Condition is false or not statisfied 
+then else block will execute.
+
+--- if-else-if
+Same as if else statements but used to check multiple Condition. In case there are multiple Conditions we have to check the we will use this statements.
+
+nested if-else
+Switch case
