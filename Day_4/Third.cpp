@@ -17,8 +17,10 @@ int main()
         {
             cout<<"A is largest number but it is smaller than 15";
         }
-        
-        
     }
-    
+    else if (b>a&&b>c)
+    {
+        cout<<"B is largest";
+    }
+        
 }
