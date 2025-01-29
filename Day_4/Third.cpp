@@ -22,5 +22,8 @@ int main()
     {
         cout<<"B is largest";
     }
+    else{
+        cout<<"C is largest number";
+    }
         
 }
