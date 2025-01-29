@@ -20,7 +20,15 @@ int main()
     }
     else if (b>a&&b>c)
     {
-        cout<<"B is largest";
+        if (b>=10)
+        {
+            cout<<"B is Largest and greater than 10";
+        }
+        else{
+            cout<<"B is largest";
+        }
+        
+        
     }
     else{
         cout<<"C is largest number";
