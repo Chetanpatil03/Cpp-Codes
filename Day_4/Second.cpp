@@ -45,6 +45,5 @@ int main()
     else{
         cout<<"Week days this shall pass";
     }
-    
-    
+
 }
