@@ -16,7 +16,7 @@ then else block will execute.
 Same as if else statements but used to check multiple Condition. In case there are multiple Conditions we have to check the we will use this statements.
 
 --- nested if-else
-If else Conditions under if Conditions. In simple words IF inside IF.
+If else Conditions under if Conditions. In simple words IF inside IF. this is used to check Condition in a Condition.
 
 --- Switch case
 Switch case use to test multiple Condition at one place. It takes one variable as expression. There are multiple cases that matches one by one. We have to use Break statement, if we do not use break statement it also execute other case.
