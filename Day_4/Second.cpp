@@ -42,6 +42,9 @@ int main()
     {
         cout<<"Weekends...........";
     }
+    else{
+        cout<<"Week days this shall pass";
+    }
     
     
 }
