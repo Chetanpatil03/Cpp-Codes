@@ -27,11 +27,15 @@ int main()
         else{
             cout<<"B is largest";
         }
-        
-        
     }
     else{
+        if (c<5)
+        {
+            cout<<"C is greates number but it is less than 5";
+        }
+        else{
         cout<<"C is largest number";
+        }
     }
         
 }
