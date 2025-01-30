@@ -33,4 +33,15 @@ int main()
     default:
         break;
     }
+
+    if (n==4||n==3)
+    {
+        cout<<"Middle of the week......";
+    }
+    else if (n==7||n==1)
+    {
+        cout<<"Weekends...........";
+    }
+    
+    
 }
