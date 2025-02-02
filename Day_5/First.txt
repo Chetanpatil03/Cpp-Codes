@@ -27,3 +27,10 @@ looping statement:
         }
         while(Condition)
 
+3. For loop
+    for loop is also entry controlled loop in which condition is check at start if the given condition is true then body 
+    of loop will be executed.
+    Syntax:
+        for(initialization;Condition;){
+            //body of the loops
+        }
