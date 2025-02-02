@@ -1,2 +1,29 @@
 looping statement:
     looping statements are used to perform same task multiple times.
+    there are various types of loops in c++
+
+    1. While loop
+    2. Do-while loop
+    3. For loop
+
+1. While loop
+    While loop is entry controlled loop. When we dont know the exact number of times
+    loop will be execute then we use this loop.
+    Syntax:
+        initialization;
+        while(condition){
+            //Code 
+            //Body of the loop
+            //Incre/Decre
+        }
+
+2. Do-While loop:
+    Do-while loop is exit controlled loop. Condition is check after the execution of the body.
+    Syntax:
+        initialization;
+        do{
+            //body
+            //Incre/Decre
+        }
+        while(Condition)
+
