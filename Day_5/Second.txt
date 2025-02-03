@@ -1,0 +1,9 @@
+Escape statements
+    -break
+    -continue
+    -exit
+    -goto
+
+Break:
+    Break statements stop the execution of current iteration of the loop or switch case.
+
