@@ -7,3 +7,12 @@ Escape statements
 Break:
     Break statements stop the execution of current iteration of the loop or switch case.
 
+Continue:
+    Continue statement skips the execution of current iteration and goes to next iteration.
+
+Exit:
+    exit is function used exit from the nested loops or switch cases.
+
+Goto:
+    Goto statements are used control the flow of the program.
+
