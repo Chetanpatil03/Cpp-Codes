@@ -1,0 +1,13 @@
+need of oops:
+    used to achieve modular programming.
+
+def
+    -- Class is factory that producing product(objects).
+    -- Object is any real world entity.
+
+    object have state and behaviour.
+
+    
+                -------- State ---------- Variables.
+    object -----
+                -------- Behaviour ------ Function/ Methods
