@@ -9,7 +9,7 @@ class Demo{
 
 int main()
 {
-    cout<<"Hello world!";
+//    cout<<"Hello world!";
     Demo d; //Object creation 
     cout<<d.a; //Accessing the members of class using its object
 }
