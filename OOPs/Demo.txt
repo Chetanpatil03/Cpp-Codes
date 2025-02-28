@@ -29,3 +29,7 @@ Four Pillars of Object Oriented programming :
         |
         |---- Data members --- Private
         |---- Member Functions --- Public
+
+
+    Instace Variables are declared Private to prevent misuse.
+    Providing Methods that can be used to read/write the state rather than accessing the state directly.
