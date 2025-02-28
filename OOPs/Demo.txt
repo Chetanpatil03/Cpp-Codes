@@ -24,3 +24,8 @@ Four Pillars of Object Oriented programming :
     which is Class. It is called as Encapsulation.
 
     It is like a protective shield that prevents the data from being accessed by the code outside of the shield.
+
+    Encapsulation 
+        |
+        |---- Data members --- Private
+        |---- Member Functions --- Public
