@@ -34,4 +34,6 @@ Four Pillars of Object Oriented programming :
     Instace Variables are declared Private to prevent misuse.
     Providing Methods that can be used to read/write the state rather than accessing the state directly.
 
+2. Inheritance :
+    Deriving a class from a Base. Aqquiring its nature and behaviour.
     
