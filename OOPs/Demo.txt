@@ -75,3 +75,5 @@ Four Pillars of Object Oriented programming :
     Displaying essential information and hiding the details.
     ex- C++ clrscr().
 
+    Hiding the implemntation details only show the essential information to the user this process is called as Abstraction or Data hiding.
+
