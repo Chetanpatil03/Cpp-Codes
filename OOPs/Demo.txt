@@ -59,3 +59,12 @@ Four Pillars of Object Oriented programming :
             Super class 2 ------- ---------> Derived class.
             Super class 3 -------
 
+            In some lanhuages not supported defaultly to use it Interface concept is introduced.
+        
+        5. Hybrid Inheritance:
+            One super class in between multiple Intermediate classed and one Derived class.
+
+                            ------ Intermediate 1 -----
+            Super class ----                            ----- Derived class.
+                            ------ Intermediate 2 ----
+
