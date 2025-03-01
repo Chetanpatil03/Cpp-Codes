@@ -68,3 +68,5 @@ Four Pillars of Object Oriented programming :
             Super class ----                            ----- Derived class.
                             ------ Intermediate 2 ----
 
+            Not supported by java. Create unneccsary ambiguty.  
+
