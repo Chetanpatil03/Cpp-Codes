@@ -36,4 +36,26 @@ Four Pillars of Object Oriented programming :
 
 2. Inheritance :
     Deriving a class from a Base. Aqquiring its nature and behaviour.
-    
+    There are various types of Inheritance:
+        1.Single : 
+            Only one Base class and Derived class.
+            Super ----- > Sub class
+        
+        2.Hierarchical Inheritance:
+            One base class and multiple Derived classes.
+                     ------- Sub class 1   
+                     ------  Sub class 2
+            Super --- ------ Sub class 3
+                    -------- Sub class 4
+                    -------- Sub class 5
+        
+        3. Multilevel Inheritance :
+            Super class extends by Intermediate class and later Derived class.
+            Super ---- Intermediate ----- Derived.
+        
+        4.Multiple Inheritance:
+            Multiple Super classes and only one Derived class.
+            Super class 1 -------
+            Super class 2 ------- ---------> Derived class.
+            Super class 3 -------
+
