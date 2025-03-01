@@ -70,3 +70,8 @@ Four Pillars of Object Oriented programming :
 
             Not supported by java. Create unneccsary ambiguty.  
 
+3. Abstraction:
+    process of data hiding.
+    Displaying essential information and hiding the details.
+    ex- C++ clrscr().
+
