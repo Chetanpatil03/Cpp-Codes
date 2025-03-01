@@ -77,3 +77,14 @@ Four Pillars of Object Oriented programming :
 
     Hiding the implemntation details only show the essential information to the user this process is called as Abstraction or Data hiding.
 
+4.Polymorphism :
+    poly means many and morph means forms so it is Many Forms.
+    Doing same task with multiple ways is called as Polymorphism.
+
+    Two types:
+        1.Compile Time Polymorphism (Method Overloading and Operator Overloading) : Two or more methods having same name bit different type of parameters or number of parameters.
+
+        2.Runtime Polymorphism(Method Overriding) : 
+        Having same method name as well as same type of parameters and number of parameters but methods are in two differnt classes.
+        
+
