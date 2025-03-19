@@ -38,5 +38,11 @@ int main()
     myChai.servings = 2;
     myChai.ingridients = {"Water","Tea","Lemon","Sugar","Flavour"};
 
+    chai msChai;
+    msChai.teaName = "Masala chai";
+    msChai.servings = 4;
+    msChai.ingridients = {"Water","Tea","Ginger","Sugar","Milk"};
+
     myChai.displayChaiDetails();
+    msChai.displayChaiDetails();
 }
