@@ -8,6 +8,7 @@ class chai{
     // public:
     //     int a=25;
 
+    public:
     string teaName; //name of the tea
     int servings;  //number of serveins
     vector<string> ingridients;  //list of ingridients to make tea
@@ -29,6 +30,13 @@ class chai{
 int main()
 {
 //    cout<<"Hello world!";
-    Demo d; //Object creation 
-    cout<<d.a; //Accessing the members of class using its object
+    // Demo d; //Object creation 
+    // cout<<d.a; //Accessing the members of class using its object
+
+    chai myChai;
+    myChai.teaName = "Lemon Tea";
+    myChai.servings = 2;
+    myChai.ingridients = {"Water","Tea","Lemon","Sugar","Flavour"};
+
+    myChai.displayChaiDetails();
 }

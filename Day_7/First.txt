@@ -18,3 +18,11 @@ Ex.:
     -- Account openinng form.
         -- One is original 
         -- We make copies from original form.
+
+Access modifier : 
+
+    default is private.
+
+    private -- only same class.
+    public -- accessebile all over.
+    protected -- derived class,
