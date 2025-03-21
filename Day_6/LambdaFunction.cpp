@@ -3,6 +3,8 @@
 using namespace std;
 
 void hello(){
+    cout<<"Say Hello....."<<endl;
+    cout<<"Good Morning...."<<endl;
 
 }
 
@@ -15,6 +17,8 @@ int main(){
     };
 
     preparedChai(2);
+
+    hello();
 
     return 0;
 }
