@@ -18,6 +18,5 @@ int main(){
         sum = sum + arr[i];
     }
     
-
     cout<<"Sum of array : "<<sum;
 }
