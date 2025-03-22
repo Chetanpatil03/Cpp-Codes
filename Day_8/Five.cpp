@@ -24,6 +24,11 @@ int main(){
     }
     
 
+    delete[] chaiOrder; //for heap memory cleanup it will not cleaned up automatically.
+    //avoid memory leakage
+
+    //thumb rule of c++ is if something is created by new keyword it should always closed.
+
     
 
     return 0;
