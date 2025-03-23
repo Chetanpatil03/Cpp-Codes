@@ -9,8 +9,17 @@ class Chai
         int servings;
         vector<string> ingredients;
 
+        //default constructor;
         Chai(){
-            cout<<"Constructor called";
+            // 
+
+            teaName = "Unknown tea";
+            servings = 1;
+            ingredients = {"Water","Tea","Tea leaves"};
+
+            cout<<"Constructor called"<<endl;
+
+
         }
     
         void displayChaiDetails(){
@@ -31,5 +40,8 @@ class Chai
 int main(){
     cout<<"Constructors in cpp";
     Chai chai;
+
+    chai.displayChaiDetails();
     return 0;
+
 }
