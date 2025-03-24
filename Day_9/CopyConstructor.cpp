@@ -52,12 +52,19 @@ class Chai
 int main(){
     // cout<<"Constructors in cpp";
     Chai lemonTea("Lemon Tea",2,{"Water","Tea leaves","Lemon","Honey"});
-    lemonTea.displayChaiDetails();
+    //lemonTea.displayChaiDetails();
 
     //copy the object
     Chai copiedChai = lemonTea;
+    //copiedChai.displayChaiDetails();
+
+
+    *lemonTea.teaName = "Modified lemon tea";  //update in only origanal not on copied.
+
+    cout<<"lemon tea-----------------"<<endl;
+    lemonTea.displayChaiDetails(); 
+    cout<<"Copied Tea : --------------"<<endl;
     copiedChai.displayChaiDetails();
-    
     return 0;
 
 }
