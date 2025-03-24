@@ -9,6 +9,8 @@ class Chai
         int servings;
         vector<string> ingredients;
 
+        //its all good until pointers are not arrieved.
+
         //Copy constructor;
         Chai(string name,int serv, vector<string> ingre){
 
@@ -16,13 +18,13 @@ class Chai
             servings = serv;
             ingredients = ingre;
 
-            cout<<"Parameterized Constructor called"<<endl;
+            cout<<"Copy Constructor called"<<endl;
 
 
         }
     
         void displayChaiDetails(){
-            cout<<"Tea name : "<<teaName<<endl;
+            cout<<"Tea name : "<<*teaName<<endl;
             cout<<"Servings : "<<servings<<endl;
             cout<<"Ingridients : ";
 
@@ -46,15 +48,15 @@ int main(){
 
     lemonTea.displayChaiDetails();
 
-    Chai copiedChai = lemonTea;
+    Chai copiedChai = lemonTea; //makes copy of the original object
     copiedChai.displayChaiDetails();
 
-    lemonTea.teaName = "Modified lemon tea";
+    // lemonTea.teaName = "Modified lemon tea";  //update in only origanal not on copied.
 
-    cout<<"lemon tea"<<endl;
-    lemonTea.displayChaiDetails();
-    cout<<"Copied Tea : "<<endl;
-    copiedChai.displayChaiDetails();
+    // cout<<"lemon tea"<<endl;
+    // lemonTea.displayChaiDetails(); 
+    // cout<<"Copied Tea : "<<endl;
+    // copiedChai.displayChaiDetails();
 
 
 
