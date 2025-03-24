@@ -26,20 +26,22 @@ bool compareServings(const Chai& chai1,const Chai& chai2){
 }
 
 int main(){
-    Chai masalaTea("Masala tea",4);
+    Chai masalaTea("Masala tea",14);
     Chai gingerTea("Ginger tea",8);
 
     //scenario is we have to find out who have more servings.
     //but the member variables are private so for use the friend function can be used.
+    //accessing the private variables 
+    //you can create friend class also
     //it can also be solved by getter and setter methods.
 
     masalaTea.display();
     gingerTea.display();
 
     if(compareServings(masalaTea,gingerTea)){
-        cout<<"Masala tea have more servings than ginger tea";
+        cout<<"Masala tea have more servings than ginger tea"<<endl;
     }
     else{
-        cout<<"Ginger tea have more servings than masala tea";
+        cout<<"Ginger tea have more servings than masala tea"<<endl;
     }
 }
