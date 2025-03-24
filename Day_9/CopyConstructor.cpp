@@ -21,7 +21,7 @@ class Chai
 
         }
 
-        Chai(Chai & other){
+        Chai(const Chai & other){ //it will takes reference/deep copy 
             teaName = new string(*other.teaName);
             servings = other.servings;
             ingredients = other.ingredients;
