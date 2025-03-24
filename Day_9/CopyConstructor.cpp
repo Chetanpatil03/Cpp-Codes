@@ -5,14 +5,14 @@ using namespace std;
 class Chai
 {
     public :
-        string teaName;
+        string *teaName;
         int servings;
         vector<string> ingredients;
 
         //Copy constructor;
         Chai(string name,int serv, vector<string> ingre){
 
-            teaName = name;
+            teaName = new string(name);
             servings = serv;
             ingredients = ingre;
 
@@ -33,6 +33,10 @@ class Chai
             cout<<endl;
         }
 
+        ~Chai(){
+            delete teaName;
+            cout<<"Distructor has been called";
+        }
 };
 
 
@@ -43,6 +47,13 @@ int main(){
     lemonTea.displayChaiDetails();
 
     Chai copiedChai = lemonTea;
+    copiedChai.displayChaiDetails();
+
+    lemonTea.teaName = "Modified lemon tea";
+
+    cout<<"lemon tea"<<endl;
+    lemonTea.displayChaiDetails();
+    cout<<"Copied Tea : "<<endl;
     copiedChai.displayChaiDetails();
 
 
