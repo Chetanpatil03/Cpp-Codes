@@ -27,10 +27,13 @@ int main(){
     //but the member variables are private so for use the friend function can be used.
     //it can also be solved by getter and setter methods.
 
-    if(){
+    masalaTea.display();
+    gingerTea.display();
+
+    if(1){
 
     }
     else{
-        
+
     }
 }
