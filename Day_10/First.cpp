@@ -17,7 +17,13 @@ class Chai{
             cout<<"Serving : "<<servings<<endl;
         }
 
+        friend bool compareServings(const Chai& chai1,const Chai& chai2);
+
 };
+
+bool compareServings(const Chai& chai1,const Chai& chai2){
+    return chai1.servings > chai2.servings;
+}
 
 int main(){
     Chai masalaTea("Masala tea",4);
@@ -30,10 +36,10 @@ int main(){
     masalaTea.display();
     gingerTea.display();
 
-    if(1){
-
+    if(compareServings(masalaTea,gingerTea)){
+        cout<<"Masala tea have more servings than ginger tea";
     }
     else{
-
+        cout<<"Ginger tea have more servings than masala tea";
     }
 }
