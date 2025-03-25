@@ -35,18 +35,33 @@ class Chai{
 
         int getServings(){
             return servings;
+            //getter for servings
         }
 
         void setServingns(int serv){
             servings = serv;
+            //setter for servings
         }
 
         vector<string> getIngredients(){
             return ingredieants;
+            //getter for ingredients
         }
 
         void setIngredients(vector<string> ingre){
             ingredieants = ingre;
+            //setter for  ingredients
+        }
+
+        void displayTea(){
+            cout<<" Tea name : "<<teaName<<endl;
+            cout<<"Servings : "<<servings<<endl;
+            cout<<"Ingredients : ";
+            for (string str : ingredieants)
+            {
+                cout<<str<<" ";
+            }
+            
         }
 
         
