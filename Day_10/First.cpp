@@ -32,7 +32,7 @@ int main(){
     //scenario is we have to find out who have more servings.
     //but the member variables are private so for use the friend function can be used.
     //accessing the private variables 
-    //you can create friend class also
+    //you can create friend class also.
     //it can also be solved by getter and setter methods.
 
     masalaTea.display();
