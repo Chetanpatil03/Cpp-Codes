@@ -54,13 +54,14 @@ class Chai{
         }
 
         void displayTea(){
-            cout<<" Tea name : "<<teaName<<endl;
+            cout<<"\nTea name : "<<teaName<<endl;
             cout<<"Servings : "<<servings<<endl;
             cout<<"Ingredients : ";
             for (string str : ingredieants)
             {
                 cout<<str<<" ";
             }
+            cout<<endl;
             
         }
 
@@ -68,13 +69,28 @@ class Chai{
 };
 
 int main(){
-    cout<<"Getter and setter methods"<<endl;
+    // cout<<"Getter and setter methods"<<endl;
     
 
     Chai ch ;
-    
-    ch.setTeaName("HCnnu");
-    cout<<ch.getTeaName();
+    cout<<"Default details of chai : "<<endl;
+    ch.displayTea();
+
+    ch.setTeaName("Lemon tea");
+    ch.setServingns(5);
+    ch.setIngredients({"Water","Tea leaves","Lemon","ginger"});
+
+    cout<<"\n--Tea name : "<<ch.getTeaName()<<endl;
+    cout<<"Servings : "<<ch.getServings()<<endl;
+    cout<<"Ingredients : ";
+    for(string s: ch.getIngredients()){
+        cout<<s<<" ";
+    }
+    cout<<endl;
+
+
+    ch.displayTea();
+
 
     return 0;
 }
