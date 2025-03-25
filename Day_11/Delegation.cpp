@@ -19,6 +19,10 @@ class Chai{
             cout<<"Main constructor called !"<<endl;
         }
 
+        //delegating constructor
+
+        Chai(string name): Chai(name,1,{"Water","tea leaves"}){}
+
         void displayTea(){
             cout<<"\nTea name : "<<teaName<<endl;
             cout<<"Servings : "<<servings<<endl;
