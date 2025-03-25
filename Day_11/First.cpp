@@ -41,6 +41,14 @@ class Chai{
             servings = serv;
         }
 
+        vector<string> getIngredients(){
+            return ingredieants;
+        }
+
+        void setIngredients(vector<string> ingre){
+            ingredieants = ingre;
+        }
+
         
 };
 
