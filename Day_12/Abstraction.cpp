@@ -35,7 +35,7 @@ class GreenTea : public Tea{
 class MasalaTea : public Tea{
     public : 
         void prepareIngridients() override {
-            cout<<"Water and tea leaves is ready"<<endl;
+            cout<<"Water and tea leaves is ready along with masala"<<endl;
         }
         void brew() override {
             cout<<"Masala Tea brewed"<<endl;
@@ -47,5 +47,11 @@ class MasalaTea : public Tea{
 };
 
 int main(){
+    GreenTea green;
+    MasalaTea masalaTea;
 
+    green.makeTea();
+    masalaTea.makeTea();
+
+    return 0;
 }
