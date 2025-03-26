@@ -17,9 +17,34 @@ class Tea{ // abstract classs
        }
 };
 
+//derived class
 class GreenTea : public Tea{
-    
-}
+    public : 
+        void prepareIngridients() override {
+            cout<<"Water and green Leaves is ready"<<endl;
+        }
+        void brew() override {
+            cout<<"Green Tea brewed"<<endl;
+        }
+        void serve() override {
+            cout<<"Green Tea Server"<<endl;
+        }
+
+};
+
+class MasalaTea : public Tea{
+    public : 
+        void prepareIngridients() override {
+            cout<<"Water and tea leaves is ready"<<endl;
+        }
+        void brew() override {
+            cout<<"Masala Tea brewed"<<endl;
+        }
+        void serve() override {
+            cout<<"Masala Tea Server"<<endl;
+        }
+
+};
 
 int main(){
 
