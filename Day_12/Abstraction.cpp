@@ -15,6 +15,9 @@ class Tea{ // abstract classs
             brew();
             serve();
        }
+
+       //in class if there is any virtual function so that class is abstract class
+       //and generally the object of abstract class are not created.
 };
 
 //derived class
