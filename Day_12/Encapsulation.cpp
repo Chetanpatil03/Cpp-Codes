@@ -43,6 +43,8 @@ class BankAccount{
                 
             }
 
+            //method for getting account number
+
             string getAccountNumber(){
                 return accountNumber;
             }
@@ -64,3 +66,6 @@ int main(){
 
     return 0;
 }
+
+// encapsulation is process of binding the data memebers and member functinos in single unit called class.
+// used combine data and show only nessary details.
