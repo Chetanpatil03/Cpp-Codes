@@ -22,7 +22,7 @@ class Tea{
             cout<<"Serving "<< servings<<" cups of tea "<<teaName<<"with generic method"<<endl;
         }
 
-        ~Tea{
+        ~Tea(){
             cout<<"Tea destructor called for "<<endl;
         }
 };
