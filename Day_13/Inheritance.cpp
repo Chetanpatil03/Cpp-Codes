@@ -9,6 +9,7 @@ class Demo1{
             cout<<"Class demo 1";
         }
 };
+
 class child : public Demo1{
     
 };
@@ -16,5 +17,7 @@ class child : public Demo1{
 int main(){
     child ch;
     ch.sayHello();
+    
+
     return 0;
 }
