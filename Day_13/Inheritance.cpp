@@ -72,11 +72,13 @@ class MasalaTea : public Tea{
 
 
 int main(){
+
+    //new way -- to create object
     
-    Tea* tea1 = new GreenTea(2); //pointing to base class
+    Tea* tea1 = new GreenTea(2); //pointing to base class 
     Tea* tea2 = new MasalaTea(4);
 
-    tea1 ->brewTea();
+    tea1 ->brewTea(); //pointing to methods
     tea1->servTea();
 
 
