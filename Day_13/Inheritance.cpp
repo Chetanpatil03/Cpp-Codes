@@ -33,6 +33,30 @@ class GreenTea : public Tea{ //inherited
         GreenTea(int serv): Tea("Green Tea",serv){ //called base class constructor
             cout<<"Green Tea Constructor called"<<endl;
         };
+
+        void brewTea() const override{
+            cout<<"Brewing : "<< teaName <<"By steepping green tea leaves"<<endl;
+        }
+
+        void servTea() const override{
+
+        }
+
+        ~GreenTea(){
+            cout<<"Green tea destructor called"<<endl;
+        }
+
+};
+
+class MasalaTea : public Tea{
+    public :
+        MasalaTea(int serv) : Tea("Masala tea",serv){
+            cout<<"Masala tea constructor called"<<endl;
+        }
+
+        void brewTea() const override final{
+            cout<<"Brewing : "<< teaName <<"With spices and milk"<<endl;
+        }
 };
 
 int main(){
