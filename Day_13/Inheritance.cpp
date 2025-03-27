@@ -28,13 +28,15 @@ class Tea{
 };
 
 //derived,child,sub,inherited class
-class child : public Demo1{
-    
+class GreenTea : public Tea{ //inherited
+    public:
+        GreenTea(int serv): Tea("Green Tea",serv){ //called base class constructor
+            cout<<"Green Tea Constructor called"<<endl;
+        };
 };
 
 int main(){
-    child ch;
-    ch.sayHello();
+    
 
 
     return 0;
