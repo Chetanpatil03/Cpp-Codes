@@ -57,10 +57,34 @@ class MasalaTea : public Tea{
         void brewTea() const override final{
             cout<<"Brewing : "<< teaName <<"With spices and milk"<<endl;
         }
+
+        ~MasalaTea(){
+            cout<<"Masala tea destructor called"<<endl;
+        }
 };
+
+// class SpicyMasalaTea : public MasalaTea {
+//     public:
+//     void brew()const override { //can't because of final keyword but you can do it from Tea class.
+//         cout<<"Brewing : "<< teaName <<"With spices and milk"<<endl;
+//     }
+// };
+
 
 int main(){
     
+    Tea* tea1 = new GreenTea(2); //pointing to base class
+    Tea* tea2 = new MasalaTea(4);
+
+    tea1 ->brewTea();
+    tea1->servTea();
+
+
+    tea2->brewTea();
+    tea2->servTea();
+
+    tea1->~Tea();
+    tea2->~Tea();
 
 
     return 0;
