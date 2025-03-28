@@ -9,11 +9,22 @@
 #include<unordered_set>
 #include<unordered_map>
 
-
 using namespace std;
 
-int main(){
-    cout<<"Use of standard template library";
+struct Product
+{
+    int productID;
+    string name;
+    string category; //structure shcema
+};
 
-    return 0;
-}
+struct Order
+{
+    int orderID;
+    int productID;
+    int quantity;
+    string customerID;
+};
+
+
+
