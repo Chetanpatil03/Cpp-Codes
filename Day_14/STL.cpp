@@ -48,6 +48,15 @@ int main(){
         "C001","C002","C003","C004","C005"
     };
 
+    recentCustomers.push_back("C006");
+    recentCustomers.push_front("C007");
+
+    list<Order>orderHistory;
+
+    orderHistory.push_back({1,101,1,"C001",time(0)});
+    orderHistory.push_back({2,102,3,"C003",time(0)});
+    orderHistory.push_back({3,103,4,"C005",time(0)});
+
 
     return 0;
 }
