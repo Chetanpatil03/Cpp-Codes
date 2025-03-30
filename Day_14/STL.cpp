@@ -61,7 +61,8 @@ int main(){
 
     set<string>categories;
 
-    //auto direct the compiler to use the initialize expression of declared variale.
+    //auto direct the compiler to use the initialize expression of declared variale. to deduce its type
+    //it will find the datatype automatically.
     for(const auto &product: products){ //individual product traversing acrross products.
 
     }
