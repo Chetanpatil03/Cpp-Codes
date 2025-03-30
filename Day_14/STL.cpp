@@ -66,8 +66,21 @@ int main(){
 
     for(const auto &product: products){ //individual product traversing acrross products.
         categories.insert(product.category);
-        
+
     }
+
+    //use of key and value pair
+
+    map<int,int>productStock = {
+        {101,10},
+        {102,20},
+        {103,10},
+        {104,15},
+        {105,30},
+        {106,5}
+    };
+
+    
 
 
     return 0;
