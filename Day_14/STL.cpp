@@ -57,7 +57,13 @@ int main(){
     orderHistory.push_back({2,102,3,"C003",time(0)});
     orderHistory.push_back({3,103,4,"C005",time(0)});
 
-    //
+    //set
+
+    set<string>categories;
+
+    for(const auto &product: products){
+
+    }
 
 
     return 0;
