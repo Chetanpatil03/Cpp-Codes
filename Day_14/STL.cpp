@@ -80,6 +80,23 @@ int main(){
         {106,5}
     };
 
+    //multimap to if same customer order multiple time
+
+    multimap<string,Order>customerOrders;
+
+    for (const auto &order  : orderHistory)
+    {   
+        customerOrders.insert({order.customerID,order});
+        
+    }
+
+    //unorder map does not have order. unsorted manner.
+
+    unordered_map<string,string> customerData = {
+        {"C001","Alice"},
+        {"C002","Bob"},
+        {"C003","Chetan"},
+    }
     
 
 
