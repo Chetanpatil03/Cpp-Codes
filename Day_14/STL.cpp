@@ -34,6 +34,8 @@ struct Customer
 
 };
 
+
+
 int main(){
     vector<Product> products = {
         {101,"Laptop","Electronics"},
@@ -43,6 +45,14 @@ int main(){
         {105,"Blender","Kitchen"},
         {106,"Desk Lamp","Home"}
     }; //the product list type of structure Products
+
+    vector<Customer> customers = {
+        {"C001","Alice"},  
+        {"C002","Bob"},  
+        {"C003","Chetan"},  
+        {"C004","Prafull"},  
+        {"C005","Harry"},  
+    };
 
     deque<string>recentCustomers = {
         "C001","C002","C003","C004","C005"
@@ -96,6 +106,14 @@ int main(){
         {"C001","Alice"},
         {"C002","Bob"},
         {"C003","Chetan"},
+        {"C004","Prafull"},  
+        {"C005","Harry"}, 
+    };//higher efficiency because it is unordered.
+
+    unordered_set<int> uniqueProductIDs;
+
+    for(const auto &product : products){
+        uniqueProductIDs.insert(product.productID);
     }
     
 
