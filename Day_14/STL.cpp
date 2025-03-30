@@ -63,8 +63,10 @@ int main(){
 
     //auto direct the compiler to use the initialize expression of declared variale. to deduce its type
     //it will find the datatype automatically.
-    for(const auto &product: products){ //individual product traversing acrross products.
 
+    for(const auto &product: products){ //individual product traversing acrross products.
+        categories.insert(product.category);
+        
     }
 
 
