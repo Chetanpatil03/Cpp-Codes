@@ -61,7 +61,8 @@ int main(){
 
     set<string>categories;
 
-    for(const auto &product: products){
+    //auto direct the compiler to use the initialize expression of declared variale.
+    for(const auto &product: products){ //individual product traversing acrross products.
 
     }
 
