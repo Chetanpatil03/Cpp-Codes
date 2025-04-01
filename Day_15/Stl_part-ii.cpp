@@ -27,8 +27,10 @@ int main(){
 
     };
 
-    //lambadas sorting
-    sort(employees.begin(),employees.end(), );
+    //lambadas sorting []() denoted
+    sort(employees.begin(),employees.end(), [](const Employee& e1, Employee& e2){ 
+        return e1.salary > e2.salary;
+    });
 
 
 }
