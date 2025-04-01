@@ -53,7 +53,7 @@ void addproduct(){
     cout<<"Enter category:";
     cin>>product.category;
 
-    products.insert(product);
+    products.push_back(product);
 }
 
 int main(){
