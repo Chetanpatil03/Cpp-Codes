@@ -34,9 +34,9 @@ struct Customer
 
 };
 
+void addproduct(){
+    Product product;
 
-
-int main(){
     vector<Product> products = {
         {101,"Laptop","Electronics"},
         {102,"SmartPhone","Electronics"},
@@ -45,6 +45,19 @@ int main(){
         {105,"Blender","Kitchen"},
         {106,"Desk Lamp","Home"}
     }; //the product list type of structure Products
+
+    cout<<"Enter id:";
+    cin>>product.productID;
+    cout<<"Enter product name:";
+    cin>>product.name;
+    cout<<"Enter category:";
+    cin>>product.category;
+
+    products.insert(product);
+}
+
+int main(){
+    
 
     vector<Customer> customers = {
         {"C001","Alice"},  
@@ -117,7 +130,23 @@ int main(){
     }
     
 
-
+    cout<<"Menu : ";
+    int ch;
+    while (1)
+    {
+        cout<<"1.Add product 2.Add customer 3.Purchase product 4.Exit"<<endl;
+        cin>>ch;
+        switch (ch)
+        {
+        case 1:
+            addprduct();
+            break;
+        
+        default:
+            break;
+        }
+    }
+    
     return 0;
 }
 
