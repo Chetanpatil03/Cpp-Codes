@@ -32,5 +32,9 @@ int main(){
         return e1.salary > e2.salary;
     });
 
+    cout<<"Employees sorted by salary : (Highest ---> lowest)"<<endl;
+
+    //for each loop for iteration.
+    for_each(employees.begin(),employees.end(),displayEmployee);
 
 }
