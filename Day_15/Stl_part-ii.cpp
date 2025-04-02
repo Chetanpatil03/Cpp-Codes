@@ -33,15 +33,27 @@ int main(){
     });
 
     cout<<"Employees sorted by salary : (Highest ---> lowest)"<<endl;
-
     //for each loop for iteration.
     for_each(employees.begin(),employees.end(),displayEmployee);
 
 
-    //
+    //for filtering the employees whose salary is greater than 1000 and storing them inside the highEarners vector
     vector<Employee> highEarners;
     copy_if(employees.begin(),employees.end(),back_inserter(highEarners),[](const Employee e){
         return e.salary >= 1000;
-    })
+    });
+
+
+    cout<<"Employees Who are hign earners : "<<endl;
+    //for each loop for iteration.
+    for_each(highEarners.begin(),highEarners.end(),displayEmployee);
+
+
+    //accumulat reduce
+    double totalSalaty = accumulate(employees.begin(),employees.end(), 0.0, [](double sum,const Employee &e){
+        return sum = e.salary;
+    });
+
+    double avgSalary = totalSalaty / employees.size();
 
 }
