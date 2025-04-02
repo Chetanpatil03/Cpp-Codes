@@ -56,4 +56,8 @@ int main(){
 
     double avgSalary = totalSalaty / employees.size();
 
+    auto highestPaid = max_element(employees.begin(),employees.end(),[](const Employee e1,Employee e2){
+        return e1.salary < e2.salary; 
+    })
+
 }
