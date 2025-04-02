@@ -58,6 +58,10 @@ int main(){
 
     auto highestPaid = max_element(employees.begin(),employees.end(),[](const Employee e1,Employee e2){
         return e1.salary < e2.salary; 
-    })
+    });
+
+    //auto for automatically getting the datatype of variale at the runtime.
+
+
 
 }

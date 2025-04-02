@@ -1,0 +1,10 @@
+important because 
+
+algorithms are : 
+    methods provided by stl (Standard Templete Library).
+    ex : 
+        begin(),end(),max_element(),min_element(),accumulate() etc.
+
+Iterators are : 
+    foreach , or any other iterable.
+
